@@ -79,7 +79,7 @@
     width: 100%;
   }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
+  
   @media screen and (max-width: 800px) {
     .column {
       flex: 50%;
@@ -87,7 +87,7 @@
     }
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  
   @media screen and (max-width: 600px) {
     .column {
       flex: 100%;
@@ -95,17 +95,17 @@
     }
   }
 
-  /* General Styles */
+ 
 body, html {
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
   display: flex;
-  flex-direction: column; /* Align header, main, and footer vertically */
-  min-height: 100vh; /* Ensure the page takes up full height */
+  flex-direction: column; 
+  min-height: 100vh; 
 }
 
-/* Header */
+
 header {
   background-color: #000000; /* Header background color */
   color: white; /* Header text color */
@@ -176,8 +176,8 @@ body, h1, h2, h3, p {
 }
 
 .onClickTextOverImage img {
-  width: 100%; /* Ensures the image fits within the grid */
-  height: auto; /* Maintains the aspect ratio */
+  width: 100%; 
+  height: auto; 
   display: block;
 }
 
