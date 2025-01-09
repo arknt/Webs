@@ -210,20 +210,20 @@ body, h1, h2, h3, p {
   text-decoration: underline;
 }
 
-/* About Section Styling */
+
 .about-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column; 
-  height: 100vh; /* Ensure the section takes the full height of the viewport */
+  height: 100vh; 
   padding: 20px;
-  width: 100%;  /* Ensures it spans the full width of the screen */
+  width: 100%;  
   box-sizing: border-box;
 }
 
 .about-title {
-  font-size: 4vw; /* Adjusts the font size to be relative to the viewport width */
+  font-size: 4vw; 
   font-weight: bold;
   text-align: center;
   color: #000000;
@@ -233,12 +233,12 @@ body, h1, h2, h3, p {
 }
 
 .about-description {
-  font-size: 2vw; /* Adjusts the font size to fit the width of the title */
+  font-size: 2vw; 
   line-height: 1.6;
   color: #535252;
-  text-align: justify; /* Justify the text to fill the width */
-  max-width: 80%; /* To ensure the text doesn't stretch too wide */
-  margin-top: 20px; /* Adds space between the title and description */
+  text-align: justify; 
+  max-width: 80%; 
+  margin-top: 20px; 
   padding: 0 20px;
 }
 
