@@ -12,4 +12,4 @@ The **Digital Album** is an interactive web-based application showcasing images 
 ## Setup Instructions
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/digital-album.git
+   git clone https://https://github.com/arknt/webs.git
