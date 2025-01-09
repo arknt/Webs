@@ -112,43 +112,43 @@ header {
   padding: 20px;
   text-align: center;
   font-weight: bold;
-  position: sticky; /* Keeps the header at the top during scrolling */
+  position: sticky; 
   top: 0;
   z-index: 10;
 }
 
-/* Footer */
+
 footer {
-  background-color: #000000; /* Footer background color */
-  color: white; /* Footer text color */
+  background-color: #000000; 
+  color: white; 
   text-align: center;
   padding: 10px 20px;
-  margin-top: auto; /* Push the footer to the bottom of the page */
+  margin-top: auto; 
 }
 
-/* Main Content */
+
 main {
-  flex: 1; /* Ensures the main content expands to fill the space between header and footer */
+  flex: 1; 
   margin-top: 70px;
   padding: 20px;
-  overflow-y: auto; /* Allows scrolling within the main content if necessary */
+  overflow-y: auto; 
 }
 
-/* Grid Container */
+
 .row {
   display: flex;
-  justify-content: center; /* Aligns columns within the row */
-  gap: 20px; /* Adds spacing between columns */
+  justify-content: center; 
+  gap: 20px; 
 }
 
-/* Column */
+
 .column {
   display: flex;
-  flex-direction: column; /* Ensures images stack vertically */
-  gap: 20px; /* Adds spacing between images in each column */
+  flex-direction: column; 
+  gap: 20px; 
 }
 
-/* Images */
+
 .column img {
   display: block;
   max-width: 100%; 
