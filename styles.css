@@ -1,4 +1,4 @@
-/* Header Container */
+
 .header {
   display: flex;
   align-items: center;
@@ -11,10 +11,10 @@
   left: 0;
   width: 100%;
   z-index: 1000;
-  flex-wrap: wrap; /* Allows elements to flow into new rows */
+  flex-wrap: wrap; 
 }
 
-/* Logo Styling */
+
 .logo {
   display: flex;
   align-items: center;
