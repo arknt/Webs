@@ -107,8 +107,8 @@ body, html {
 
 
 header {
-  background-color: #000000; /* Header background color */
-  color: white; /* Header text color */
+  background-color: #000000; 
+  color: white; 
   padding: 20px;
   text-align: center;
   font-weight: bold;
