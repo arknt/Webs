@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colours Palette</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .color-box {
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .color-swatch {
+      height: 100px;
+      width: 100%;
+    }
+    .color-name {
+      padding: 10px;
+      background: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <h1>Colour Palette</h1>
+  <div class="color-grid">
+    <!-- Example Color Boxes -->
+    <div class="color-box">
+      <div class="color-swatch" style="background-color: #444444;"></div>
+      <div class="color-name">#FF5733</div>
+    </div>
+    <div class="color-box">
+      <div class="color-swatch" style="background-color: #33FF57;"></div>
+      <div class="color-name">#33FF57</div>
+    </div>
+    <div class="color-box">
+      <div class="color-swatch" style="background-color: #3357FF;"></div>
+      <div class="color-name">#3357FF</div>
+    </div>
+    <div class="color-box">
+      <div class="color-swatch" style="background-color: #F1C40F;"></div>
+      <div class="color-name">#F1C40F</div>
+    </div>
+    <div class="color-box">
+      <div class="color-swatch" style="background-color: #9B59B6;"></div>
+      <div class="color-name">#9B59B6</div>
+    </div>
+    <div class="color-box">
+      <div class="color-swatch" style="background-color: #1ABC9C;"></div>
+      <div class="color-name">#1ABC9C</div>
+    </div>
+    <!-- Add More Colors as Needed -->
+  </div>
+</body>
+</html>

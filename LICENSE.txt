@@ -1,0 +1,26 @@
+Mateo's Digital Album License
+
+Copyright (c) 2025 Mateo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this digital album and associated files (the "Software"), to use the Software for personal, non-commercial purposes only, subject to the following conditions:
+
+1. **Non-Commercial Use**: 
+   The Software and its contents are provided for personal, non-commercial use only. Any use of the Software or its contents for commercial purposes is strictly prohibited.
+
+2. **No Modification or Redistribution**:
+   You may not modify, alter, or create derivative works of the Software or its contents. Redistribution of the Software, in whole or in part, is not permitted without prior written permission from the copyright holder.
+
+3. **No Warranty**:
+   The Software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the copyright holder be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Software or its use.
+
+4. **Intellectual Property**:
+   All images, text, and other content contained in this Software remain the intellectual property of the copyright holder. Use of these assets outside the scope of this license is prohibited.
+
+5. **Termination**:
+   This license shall automatically terminate if you violate any of its terms. Upon termination, you must cease all use of the Software and destroy any copies in your possession.
+
+For any inquiries or requests for permissions beyond the scope of this license, please contact the copyright holder.
+
+---
+
+This license ensures that the project is protected while allowing personal use. If this aligns with your goals or if you'd like further changes, let me know!

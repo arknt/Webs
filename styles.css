@@ -1,0 +1,244 @@
+/* Header Container */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  flex-wrap: wrap; /* Allows elements to flow into new rows */
+}
+
+/* Logo Styling */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Middle Section (Title and Buttons) */
+.header-middle {
+  display: flex;
+  flex-direction: column; /* Stack title and buttons vertically */
+  align-items: center;
+  flex: 1;
+  text-align: center;
+}
+
+/* Title Styling */
+.header-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px; /* Space between title and buttons */
+}
+
+/* Buttons Section */
+.header-buttons {
+  display: flex;
+  gap: 20px; /* Space between the buttons */
+}
+
+.header-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.header-link:hover {
+  color: #ccc; /* Subtle hover effect */
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  /* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column; /* Align header, main, and footer vertically */
+  min-height: 100vh; /* Ensure the page takes up full height */
+}
+
+/* Header */
+header {
+  background-color: #000000; /* Header background color */
+  color: white; /* Header text color */
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  position: sticky; /* Keeps the header at the top during scrolling */
+  top: 0;
+  z-index: 10;
+}
+
+/* Footer */
+footer {
+  background-color: #000000; /* Footer background color */
+  color: white; /* Footer text color */
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: auto; /* Push the footer to the bottom of the page */
+}
+
+/* Main Content */
+main {
+  flex: 1; /* Ensures the main content expands to fill the space between header and footer */
+  margin-top: 70px;
+  padding: 20px;
+  overflow-y: auto; /* Allows scrolling within the main content if necessary */
+}
+
+/* Grid Container */
+.row {
+  display: flex;
+  justify-content: center; /* Aligns columns within the row */
+  gap: 20px; /* Adds spacing between columns */
+}
+
+/* Column */
+.column {
+  display: flex;
+  flex-direction: column; /* Ensures images stack vertically */
+  gap: 20px; /* Adds spacing between images in each column */
+}
+
+/* Images */
+.column img {
+  display: block;
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('fonts/coolvetica.woff2') format('woff2'),
+       url('fonts/coolvetica.woff') format('woff'),
+       url('fonts/coolvetica.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, h1, h2, h3, p {
+  font-family: 'Coolvetica', sans-serif;
+}
+
+.onClickTextOverImage {
+  position: relative;
+  display: inline-block;
+}
+
+.onClickTextOverImage img {
+  width: 100%; /* Ensures the image fits within the grid */
+  height: auto; /* Maintains the aspect ratio */
+  display: block;
+}
+
+.onClickTextOverImage div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  border-radius: 8px;
+}
+
+.onClickTextOverImage:hover div,
+.onClickTextOverImage.show div {
+  opacity: 1;
+  visibility: visible;
+}
+
+.onClickTextOverImage a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* About Section Styling */
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stacks the title and description vertically */
+  height: 100vh; /* Ensure the section takes the full height of the viewport */
+  padding: 20px;
+  width: 100%;  /* Ensures it spans the full width of the screen */
+  box-sizing: border-box;
+}
+
+.about-title {
+  font-size: 4vw; /* Adjusts the font size to be relative to the viewport width */
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.about-description {
+  font-size: 2vw; /* Adjusts the font size to fit the width of the title */
+  line-height: 1.6;
+  color: #535252;
+  text-align: justify; /* Justify the text to fill the width */
+  max-width: 80%; /* To ensure the text doesn't stretch too wide */
+  margin-top: 20px; /* Adds space between the title and description */
+  padding: 0 20px;
+}
+

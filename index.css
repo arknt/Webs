@@ -1,0 +1,19 @@
+/* css/index.css */
+
+/* Reset Styles: Ensure consistency across browsers */
+@import url('./reset.css');
+
+/* Theme and Global Variables: Define the color palette, fonts, etc. */
+@import url('./theme.css');
+
+/* Component-Specific Styles */
+@import url('./header.css');  /* Styles for the header */
+@import url('./grid.css');    /* Styles for the image grid */
+@import url('./about.css');   /* Styles for the "About My Digital Album" section */
+@import url('./footer.css');  /* Styles for the footer */
+
+/* Utility Classes: Reusable utility styles like spacing, alignment */
+@import url('./utilities.css');
+
+/* Additional Sections or Features (if needed) */
+/* Add imports for other sections as your project grows */

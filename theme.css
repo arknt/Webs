@@ -1,0 +1,51 @@
+/* Theme Tokens */
+:root {
+    /* Color Palette */
+    --color-primary: #000000; /* Black */
+    --color-secondary: #ffffff; /* White */
+    --color-accent: #535252;   /* Grey */
+
+    /* Typography */
+    --font-family-base: 'Coolvetica', sans-serif;
+    --font-size-base: 16px;   /* Base font size */
+    --font-size-large: 24px;  /* Large font size */
+    --font-size-small: 12px;  /* Small font size */
+    --font-weight-normal: 400; /* Normal font weight */
+    --font-weight-bold: 700;  /* Bold font weight */
+
+    /* Spacing */
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+
+    /* Borders and Shadows */
+    --border-radius: 8px;
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    /* Transition Durations */
+    --transition-duration: 0.3s;
+}
+
+/* Fonts */
+body {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: var(--color-accent);
+    transition: color var(--transition-duration);
+}
+
+a:hover {
+    color: var(--color-secondary);
+}
+
+/* Backgrounds */
+body {
+    background-color: var(--color-secondary);
+    color: var(--primary);
+}
