@@ -215,7 +215,7 @@ body, h1, h2, h3, p {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; /* Stacks the title and description vertically */
+  flex-direction: column; 
   height: 100vh; /* Ensure the section takes the full height of the viewport */
   padding: 20px;
   width: 100%;  /* Ensures it spans the full width of the screen */
